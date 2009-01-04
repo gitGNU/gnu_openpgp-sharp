@@ -1,13 +1,13 @@
-<Project name="gnupg-sharp" fileversion="2.0" Description="GnuPG-Sharp is a library which can be used to access&#xA;GPG keyrings, using the command-line utility &quot;gnupg&quot;,&#xA;or &quot;gnupg2&quot;, at will." DefaultNamespace="GnuPG" language="C#" clr-version="Net_2_0" ctype="DotNetProject">
+<Project name="openpgp-sharp" fileversion="2.0" Description="OpenPGP-Sharp is a library which can be used to access&#xA;GPG keyrings, using the command-line utility &quot;gnupg&quot;,&#xA;or &quot;gnupg2&quot;, at will." DefaultNamespace="GnuPG" language="C#" clr-version="Net_2_0" ctype="DotNetProject">
   <Configurations active="Debug">
     <Configuration name="Debug" ctype="DotNetProjectConfiguration">
-      <Output directory="bin/Debug" assemblyKeyFile="." assembly="gnupg-sharp" />
+      <Output directory="bin/Debug" assemblyKeyFile="." assembly="openpgp-sharp" />
       <Build debugmode="True" target="Library" />
       <Execution runwithwarnings="True" consolepause="False" runtime="MsNet" clr-version="Net_2_0" />
       <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" definesymbols="DEBUG" generatexmldocumentation="True" langversion="ISO_2" ctype="CSharpCompilerParameters" />
     </Configuration>
     <Configuration name="Release" ctype="DotNetProjectConfiguration">
-      <Output directory="bin/Release" assemblyKeyFile="." assembly="gnupg-sharp" />
+      <Output directory="bin/Release" assemblyKeyFile="." assembly="openpgp-sharp" />
       <Build debugmode="False" target="Library" />
       <Execution runwithwarnings="True" consolepause="False" runtime="MsNet" clr-version="Net_2_0" />
       <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" generatexmldocumentation="True" langversion="ISO_2" ctype="CSharpCompilerParameters" />

@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Represents a Keyset: Primary Key + Secondary Key(s).
 	/// </summary>

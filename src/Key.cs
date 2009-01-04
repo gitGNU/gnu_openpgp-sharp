@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Represents a single key (be it a primary, subkey, ...)
 	/// </summary>

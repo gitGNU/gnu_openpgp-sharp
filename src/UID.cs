@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Represents a UID/UAT.
 	/// </summary>
@@ -133,10 +133,10 @@ namespace GnuPG {
 		/// </param>
 		/// <param name="UIDHash">
 		/// A <see cref="System.String"/>, the hash of this UID. See
-		/// <see cref="GnuPG.UID.Hash"/>.
+		/// <see cref="OpenPGP.UID.Hash"/>.
 		/// </param>
 		/// <returns>
-		/// A <see cref="ArrayList"/> of <see cref="GnuPG.Signature"/> objects.
+		/// A <see cref="ArrayList"/> of <see cref="OpenPGP.Signature"/> objects.
 		/// </returns>
 		public static ArrayList GetSignatures(string KeyID, string UIDHash) {
 			ArrayList sigs = new ArrayList();

@@ -19,7 +19,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace GnuPG
+namespace OpenPGP
 {
 	/// <summary>
 	/// General usage definitions

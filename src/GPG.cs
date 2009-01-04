@@ -23,7 +23,7 @@ using System.IO;
 using System.Text;
 using System.Threading;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Main class
 	/// </summary>

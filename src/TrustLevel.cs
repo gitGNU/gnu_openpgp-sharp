@@ -18,7 +18,7 @@
 
 using System;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Trust levels
 	/// </summary>

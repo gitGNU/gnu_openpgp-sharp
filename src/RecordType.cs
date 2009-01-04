@@ -18,7 +18,7 @@
 
 using System;
 
-namespace GnuPG {
+namespace OpenPGP {
 	/// <summary>
 	/// Type of record used by --with-colons
 	/// </summary>

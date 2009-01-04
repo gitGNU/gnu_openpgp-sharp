@@ -20,7 +20,7 @@ using System;
 using System.Collections;
 using System.Text.RegularExpressions;
 
-namespace GnuPG {
+namespace OpenPGP {
 	internal static class Utils {
 		/// <summary>
 		/// Gives the specified field as a <see cref="System.String"/>
